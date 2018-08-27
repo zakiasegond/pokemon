@@ -17,8 +17,8 @@ Class Feunnec extends Pokemon
         $this->faiblesse = "eau";
         $this->intensite_attaque1 = 10;
         $this->intensite_attaque2 = 20;
-        $this->carte = '<img src ="fennec.png">';
         $this->evol1 = $this->pv + 20 . $this->nom = "Roussil";
+        $this->carte = '<img src ="fennec.png">';
         
   	} 
 }

@@ -16,7 +16,7 @@
 			require ('Grenousse.class.php');
 			require ('Marisson.class.php');
 
-			echo "hello";
+			// echo "hello";
 
 			$marisson = new Marisson();
 			$feunnec = new Feunnec();
@@ -24,8 +24,7 @@
 
 			// echo '<table><thead><th>' . $marisson->carte . '</th><th>' . $feunnec->carte . '</th><th>' . $grenousse->carte . '</th></thead></table>';
 
-			echo($marisson);
-
+			var_dump($feunnec);
 			
 
 ?>
